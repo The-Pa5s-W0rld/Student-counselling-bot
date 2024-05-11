@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\srush\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\php-8.1.13-Win32-vs16-x64;C:\Program Files\MATLAB\R2022b\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Users\srush\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\srush\AppData\Local\Programs\Python\Python310\;C:\Users\srush\AppData\Local\Microsoft\WindowsApps;C:\Users\srush\AppData\Local\GitHubDesktop\bin;C:\msys64\mingw64\bin;C:\Users\srush\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Users\srush\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\srush\AppData\Local\gitkraken\bin;C:\Users\srush\AppData\Roaming\npm;C:\Users\srush\go\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.9.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\srush\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:137150:13)
+      at Interface.emit (node:events:514:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1125:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:264:20)
+      at ReadStream.emit (node:events:514:28)
+      at emitKeys (node:internal/readline/utils:371:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:514:28)
+      at addChunk (node:internal/streams/readable:376:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
