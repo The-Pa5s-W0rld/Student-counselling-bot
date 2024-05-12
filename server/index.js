@@ -1,6 +1,7 @@
 import express from "express";
-import config from "./config/config.js";
 import cors from "cors";
+import config from "./config/config.js";
+import { sample2 } from "./models/sample.js";
 
 const app = express();
 
@@ -16,5 +17,5 @@ app.listen(config.port, () => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send(JSON.stringify(sample2));
 });
