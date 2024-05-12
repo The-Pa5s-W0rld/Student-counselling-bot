@@ -18,7 +18,7 @@ make sure you have bun installed on your machine, if not, you can install it by 
 
 1. `cd client`
 2. `bun install`
-3. `bun start`
+3. `bun run start`
 
 ### To run the chatbot:
 
